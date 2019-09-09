@@ -20,7 +20,7 @@
 <nav class="gral">
  <main>
     <section id="titulo  faq">
-        <p class="PregFAQTitutlo" > <strong> Preguntas Frecuentes</strong></p>
+        <p class="titulosgenerales" > <strong> Preguntas Frecuentes</strong></p>
     </section>
      
     <section class="seccionx">
