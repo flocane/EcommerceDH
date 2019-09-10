@@ -1,5 +1,5 @@
 <?php
-function validar($datos){
+function validate($datos){
     $errores=[];
 
 if (isset($datos["nombre"])) {

@@ -6,16 +6,16 @@
 <div class="collapse navbar-collapse" id="navbarNav">
   <ul class="navbar-nav">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Productos</a>
+      <a class="nav-link" href="productPage.php">Productos</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="formulario.php">Contacto</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#" >Sobre Nosotros</a>
+      <a class="nav-link" href="FAQ.php" >Sobre Nosotros</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="registro.php" >Registrate</a>

@@ -1,0 +1,27 @@
+.foot{
+    color: white;
+  }
+  .iconos i:hover{
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .iconos i{
+    font-size: 25px;
+  margin-left: 5px;
+  transition: color 0.4s ease;
+  }
+  .iconos{
+    margin-left: 10px;
+  }
+  .iconos i.fa-whatsapp:hover{
+    color: green;
+  }
+  .iconos i.fa-facebook:hover{
+    color: #3b5998;
+  }
+  .iconos i.fa-instagram:hover{
+    color: #bc2a8d;
+  }
+  .iconos i.fa-youtube:hover{
+    color: red;
+  }

@@ -3,5 +3,3 @@
   require "helpers.php";
 
 
-  Session::start();
-

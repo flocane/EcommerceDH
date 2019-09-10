@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/GS-Style.css">
 </head>
 <body >
 <div class="container-fluid px-0">
@@ -27,32 +26,32 @@
     <div class="flex-container">
 
         <div class="producto">      
-            <img src="imagenes/lavadora.png" alt="Lavado Small" style="width:100%; ">
+            <img src="img/lavadora.png" alt="Lavado Small" style="width:100%; ">
             <p> Lavado Small </p>
         </div>
 
         <div class="producto">      
-            <img src="imagenes/lavadora.png" alt="Lavado Medium" style="width:100%;">
+            <img src="img/lavadora.png" alt="Lavado Medium" style="width:100%;">
             <p> Lavado Medium </p>
         </div>
 
         <div class="producto">      
-            <img src="imagenes/lavadora.png" alt="Lavado large" style="width:100%;">
+            <img src="img/lavadora.png" alt="Lavado large" style="width:100%;">
             <p> Lavado Large </p>
         </div>
 
         <div class="producto">      
-            <img src="imagenes/planchado2.png" alt="Planchado" style="width:100%;">
+            <img src="img/planchado2.png" alt="Planchado" style="width:100%;">
             <p> Planchado </p>
         </div>
 
         <div class="producto">      
-            <img src="imagenes/secado.png" alt="Secado" style="width:100%;">
+            <img src="img/secado.png" alt="Secado" style="width:100%;">
             <p> Secado </p>
         </div>
 
         <div class="producto">      
-            <img src="imagenes/lavado-en-seco.png" alt="Limpieza" style="width:100%;">
+            <img src="img/lavado-en-seco.png" alt="Limpieza" style="width:100%;">
             <p> Limpieza </p>
         </div>
 
