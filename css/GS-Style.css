@@ -49,11 +49,17 @@
 .producto {
     width: 30%;
     background-color: rgba(53, 51, 51, 0.164);
-    padding: 20px;
+    padding: 40px;
     margin-top: 15px;
     text-align: center;
 }
 
+.cajaFoto{
+    width: 100%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .flex-container {
     display: flex;
@@ -73,15 +79,7 @@
     margin: 0 0 10px 0;
     padding: 0 0 5px 0;
   }
-
-
-.wrap {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+ 
   .botonSubmit {
     width: 140px;
     height: 35px;
@@ -106,3 +104,15 @@
     transform: translateY(-7px);
   }
   
+  .carrito {
+    float: right;
+    padding: 20px;
+}
+
+.shopping-cart {
+    display: inline-block;
+    background: url('http://cdn1.iconfinder.com/data/icons/jigsoar-icons/24/_cart.png') no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+    margin: 0 50px 0 0;
+}
