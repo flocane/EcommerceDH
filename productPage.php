@@ -27,67 +27,92 @@
 
     <div class="flex-container">
 
+    <div class="producto">  
+        
+            <div class="cajaFoto fotosBolsaMediana">        
+            </div>
+            <h4 class="nombreProd">Lavanderia Small</h4>
+            <p class="precio">Precio: <em class="precio">$436</em> </p>
+            <div> 
+                <button class="botonSubmit">Agregar</button>
+            </div>
+        </div>
+
         <div class="producto">  
-            <div class="cajaFoto">        
-                 <img src="img/lavadora.png" alt="Lavado Small" style="width:100%; ">
+            <div class="cajaFoto fotosBolsaMediana">        
             </div>
-            <h4 class="nombreProd">Lavado Small</h4>
-            <p class="precio">Precio: <em class="precio">$449</em> </p>
+            <h4 class="nombreProd">Lavanderia Medium</h4>
+            <p class="precio">Precio: <em class="precio">$436</em> </p>
             <div> 
                 <button class="botonSubmit">Agregar</button>
             </div>
         </div>
 
-        <div class="producto"> 
-             <div class="cajaFoto">     
-                <img src="img/lavadora.png" alt="Lavado Medium" style="width:100%;">
+        <div class="producto">  
+            <div class="cajaFoto fotosBolsaMediana">        
             </div>
-            <h4 class="nombreProd">Lavado Medium</h4>
-              <p class="precio">Precio: <em class="precio">$549</em> </p>
-              <div> 
-                <button class="botonSubmit">Agregar</button>
-              </div>
-        </div>
-
-        <div class="producto">     
-            <div class="cajaFoto">
-                <img src="img/lavadora.png" alt="Lavado large" style="width:100%;">
-            </div> 
-            <h4 class="nombreProd">Lavado Large</h4>
-            <p class="precio">Precio: <em class="precio">$649</em> </p>
-              <div> 
-                <button class="botonSubmit">Agregar</button>
-              </div>
-        </div>
-
-        <div class="producto"> 
-             <div class="cajaFoto">          
-                <img src="img/planchado2.png" alt="Planchado" style="width:100%;">
-            </div>
-            <h4 class="nombreProd">Planchado</h4>
-            <p class="precio">Precio: <em class="precio">$415</em> </p>
+            <h4 class="nombreProd">Lavanderia Large</h4>
+            <p class="precio">Precio: <em class="precio">$636</em> </p>
             <div> 
                 <button class="botonSubmit">Agregar</button>
             </div>
         </div>
 
-        <div class="producto"> 
-             <div class="cajaFoto">     
-                 <img src="img/secado.png" alt="Secado" style="width:100%;">
-            </div>  
-             <h4 class="nombreProd">Secado</h4>
-              <p class="precio">Precio: <em class="precio">$230</em> </p>
-              <div> 
+        <div class="producto">  
+            <div class="cajaFoto fotosCamisa">        
+            </div>
+            <h4 class="nombreProd">Camisas</h4>
+            <p class="precio">Precio: <em class="precio">$215</em> </p>
+            <div> 
                 <button class="botonSubmit">Agregar</button>
-              </div>
+            </div>
         </div>
 
-        <div class="producto"> 
-            <div class="cajaFoto">
-                <img src="img/lavado-en-seco.png" alt="Limpieza" style="width:100%;">
-            </div>     
-            <h4 class="nombreProd">Limpieza</h4>
-            <p class="precio">Precio: <em class="precio">$346</em> </p>
+
+        <div class="producto">  
+            <div class="cajaFoto fotosSaco">        
+            </div>
+            <h4 class="nombreProd">Sacos</h4>
+            <p class="precio">Precio: <em class="precio">$320</em> </p>
+            <div> 
+                <button class="botonSubmit">Agregar</button>
+            </div>
+        </div>
+
+        <div class="producto">  
+            <div class="cajaFoto fotosPantalon">        
+            </div>
+            <h4 class="nombreProd">Pantalones</h4>
+            <p class="precio">Precio: <em class="precio">$150</em> </p>
+            <div> 
+                <button class="botonSubmit">Agregar</button>
+            </div>
+        </div>
+        <div class="producto">  
+            <div class="cajaFoto fotosRopaBebe">        
+            </div>
+            <h4 class="nombreProd">Ropa Delicada</h4>
+            <p class="precio">Precio: <em class="precio">$515</em> </p>
+            <div> 
+                <button class="botonSubmit">Agregar</button>
+            </div>
+        </div>
+
+        <div class="producto">  
+            <div class="cajaFoto fotosAcolchado">        
+            </div>
+            <h4 class="nombreProd">Acolchados</h4>
+            <p class="precio">Precio: <em class="precio">$615</em> </p>
+            <div> 
+                <button class="botonSubmit">Agregar</button>
+            </div>
+        </div>
+
+        <div class="producto">  
+            <div class="cajaFoto fotosToalla">        
+            </div>
+            <h4 class="nombreProd">Toallas</h4>
+            <p class="precio">Precio: <em class="precio">$355</em> </p>
             <div> 
                 <button class="botonSubmit">Agregar</button>
             </div>

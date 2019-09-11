@@ -48,10 +48,54 @@
 
 .producto {
     width: 30%;
-    background-color: rgba(53, 51, 51, 0.164);
-    padding: 40px;
+    height: 350px;
     margin-top: 15px;
     text-align: center;
+    margin-bottom: 150px;
+    margin-right: 30px; 
+}
+
+.fotosCamisa{
+    background-image: url(../img/camisas.jpg);
+    background-size: cover;
+}
+
+.fotosSaco{
+    background-image: url(../img/sacos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.fotosPantalon{
+    background-image: url(../img/Pantalones.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotosRopaBebe{
+    background-image: url(../img/RopaBebe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotosAcolchado{
+    background-image: url(../img/acolchados.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotosToalla{
+    background-image: url(../img/toallas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotosBolsaMediana{
+    background-image: url(../img/bolsaMediana.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
 }
 
 .cajaFoto{
@@ -65,19 +109,20 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 40px;
+    justify-content: left;
   }
 
   .color{
-    background-color:grey;
+    background-color: grey;
   }
 
   .nombreProd {
-    font-size: 16px;
+    font-size: 18px;
     display: block;
     border-bottom: 1px solid #ccc;
     margin: 0 0 10px 0;
-    padding: 0 0 5px 0;
+    padding: 10px;
   }
  
   .botonSubmit {
@@ -90,7 +135,7 @@
     font-weight: 500;
     color: #000;
     border: none;
-    border-radius: 45px;
+    border-radius: 40px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
