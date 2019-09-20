@@ -12,7 +12,7 @@
       <a class="nav-link" href="productPage.php">Productos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="formulario.php">Contacto</a>
+      <a class="nav-link" href="contacto.php">Contacto</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="FAQ.php" >Sobre Nosotros</a>
