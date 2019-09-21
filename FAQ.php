@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css.map">
-    <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/GS-style.css">
+    <link rel="stylesheet" href="css/master.css">
 </head>
 <body >
 <div class="container-fluid px-0">
@@ -20,7 +19,7 @@
 <nav class="gral">
  <main>
     <section id="titulo  faq">
-        <p class="PregFAQTitutlo" > <strong> Preguntas Frecuentes</strong></p>
+        <p class="titulosgenerales" > <strong> Preguntas Frecuentes</strong></p>
     </section>
      
     <section class="seccionx">

@@ -1,7 +1,7 @@
 <?php
-include_once("controladores/functions.php");
+include_once("controllers/loader.php");
 if ($_POST){
-  $errores=validar($_POST);
+  $errores=validate($_POST);
   if (count($errores)===0) {
     $registro= armarRegistro($_POST);
     guardar($registro);
