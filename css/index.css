@@ -1,15 +1,15 @@
+.pivot{
+  height: 30%;
+}
 
 
   /* class pnouel 0702019 */
 .landingSections{
-    margin-top: 2%;
-    margin-right: 0%;
-    margin-left: 0%;
     margin-bottom: 5%;
     border-top:2px solid #94d3f8;
     border-bottom:2px solid #94d3f8;
     background-image: url("../img/layout/BGLaundry.png") ;
-    background-repeat: repeat;  
+    background-repeat: none;  
 }
 ​
 /* class pnouel imagenes de articles en sections 0702019 */
@@ -54,7 +54,7 @@ background-color: white;
 ​
 .ServiceBannerArt{
     text-align: center;
-    padding: 0%;
+    margin-top: 20%;
   }
 .headingServiceBanner{
   font-size: 2em;
