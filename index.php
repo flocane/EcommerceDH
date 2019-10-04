@@ -13,81 +13,58 @@
     <title>Landing Page</title>
 </head>
 <body>
-<?php  include_once 'Components/navbar.php' ?>
 <div class="container-fluid px-0 bg">
+<?php  include_once 'Components/navbar.php' ?>
+
 ​
-<section class="row landingSections">
-    <article class="col-6 landingArticles">
-     <img  class="imagesLanding" src="img\content\laundryIron.jpg" alt="">
-    </article>
-    <article class="col-6 landingArticles">
-    <h1 class="headingLanding">LAVANDERIAS LAVA BIEN </h1>  
-    <p class="parrLanding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quia, 
-    consectetur molestias dolore iure possimus quod debitis corrupti recusandae voluptas qui, modi 
-    quam quibusdam officiis nesciunt eos voluptatem distinctio! Voluptate iste debitis voluptatem voluptates, 
-    voluptatibus ut fuga nihil facere harum!</p>
-                <!-- Boton  a Productos-->
-            <div class="col-6"><a href=productos.php> <button type="button" class="btn btn-primary btn-lg buttonsLanding" >NUESTROS PRODUCTOS</button></a></div>
-​
-        </article>  
-  
-</section>
-​
-<section class="row ">
-<article class="col-4 ServiceBannerArt">
-    <img src="img\layout\ironingServices.png" alt="" srcset="">
-    <h2 class="headingServiceBanner">Planchado</h2>
-</article>
-<article class="col-4 ServiceBannerArt">
-     <img src="img\layout\washingMachineServices.png" alt="" srcset="">
-     <h2 class="headingServiceBanner">Lavado</h2>
-</article>
-<article class="col-4 ServiceBannerArt">
-    <img src="img\layout\dryCleaningServices.png" alt="" srcset="">
-    <h2 class="headingServiceBanner">Tintoreria</h2>
-</article>
-​
-​
-</section>
-​
-​
-<!-- <div class="col-12 auxSpace" ></div> -->
-​
-<section class="row landingSections">
-    
-    <article class="col-6 landingArticles">
-    <h1 id="headingRegistro">COMUNIDAD LAVA BIEN</h1>  
+<div class="d-flex p-3   text-black landingSections">
+    <div class="col-6 p-2">
+      <div><img  class="imagesLanding" src="img\content\laundryIron.jpg" alt=""></div>
+    </div>
+    <div class="col-6 p-2 ">
+        <div class='sectionLanding'><h1 class="headingLanding">LAVANDERIAS LAVA BIEN </h1>
+        <p class="parrLanding">Somos el servicio de de lavanderias, que piensa en ti, diversos servicios
+            con entrega a domicilio, para mayor comodidad, podras ver elegir tu plan de lavado, rapido y facil,
+            para mayor comodidad podras, hacer seguimiento de tu orden, ingresando en tu cuenta LavaBien.
+            
+        </p>
+     <div class="col-6"><a href=productPage.php> <button type="button" class="btn btn-primary btn-lg buttonsLanding" >NUESTROS PRODUCTOS</button></a></div></div>
+        
+​   </div>
+</div>
+
+<div class="d-flex p-3 text-white">
+  <div class="p-2"> 
+        <img src="img\layout\ironingServices.png" alt="" srcset="">
+        <h2 class="headingServiceBanner">Planchado</h2>
+  </div>
+  <div class="p-2 ">
+        <img src="img\layout\washingMachineServices.png" alt="" srcset="">
+        <h2 class="headingServiceBanner">Lavado</h2>  
+  </div>
+  <div class="p-2 ">
+        <img src="img\layout\dryCleaningServices.png" alt="" srcset="">
+        <h2 class="headingServiceBanner">Tintoreria</h2>
+  </div>
+</div>
+
+<div class="d-flex p-3   text-black landingSections">
+    <div class="col-6 p-2">
+    <div class='sectionLanding'><h1 class="headingLanding">COMUNIDAD LAVA BIEN</h1>
     <p class="parrLanding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quia, 
     consectetur molestias dolore iure possimus quod debitis corrupti recusandae voluptas qui, modi 
     quam quibusdam officiis nesciunt eos voluptatem distinctio! Voluptate iste debitis voluptatem voluptates, 
     voluptatibus ut fuga nihil facere harum!</p>
 ​
-          <div class="col-6"><a href=registro.php> <button type="button" class="btn btn-primary btn-lg buttonsLanding" >REGISTRATE</button></a></div>     
-    </article>
-    <article class="col-6 landingArticles">
-     <img class="imagesLanding" src="img\content\comunidadLaveBien.jpg" alt="">
-     
-    </article>
-</section>
-<!-- <div class="col-12 auxSpace" ></div> -->
-<section class="row landingSections">
-    <article class="col-6 landingArticles">
-     <img  class="imagesLanding" src="img\content\about.jpg" alt="">
-    </article>
-    <article class="col-6 landingArticles">
-    <h1 class="headingLanding">MAS SOBRE NOSOTROS</h1>  
-    <p class="parrLanding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis architecto est
-         vero velit sapiente, dolorem error esse ducimus, ut odit omnis eum harum eligendi 
-         animi voluptatibus nam. Quidem, odit. Iste eos placeat error eaque rerum incidunt?
-          Soluta quidem maiores totam, enim ipsam deleniti, optio quisquam perferendis molestias 
-          at voluptas. Quisquam modi ullam asperiores impedit dolore ad assumenda sequi hic nihil.</p>
- 
-            <div class="col-6"><a href=ABOUT.php> <button type="button" class="btn btn-primary btn-lg buttonsLanding" >NOSOTROS</button></a></div>
-​
-        </article>  
-  
-</section>
-​
+     <div class="col-6"><a href=registro.php> <button type="button" class="btn btn-primary btn-lg buttonsLanding" >REGISTRATE</button></a></div></div>
+        
+    </div>
+    <div class="col-6 p-2 ">
+        <div><img class="imagesLanding" src="img\content\comunidadLaveBien.jpg" alt=""></div>
+        
+​   </div>
+</div>
+
 ​
 </div>
 <?php include_once 'Components/footer.php'; ?>
