@@ -1,15 +1,23 @@
 <?php
 include_once("controllers/loader.php");
 if ($_POST){
-  $errores=validate($_POST);
-  if (count($errores)===0) {
-    $registro= armarRegistro($_POST);
-    guardar($registro);
-    header("location:login.php");
-    exit;
-  }
-}
+  $user = new User($_POST['nombre'], $_POST['apellido'], $_POST['email'], $_POST['password']);
 
+  $errores=$validator->validateInput($_POST);
+    if(count($errores)==0){
+      $userfind = $db->search($user->getEmail());
+
+      if($userfind != false){
+        $errores["email"]="Usuario ya registrado";
+      }else{
+        $avatar = $factory->createAvatar($_FILES);
+        $userArray=$factory->create($user,$avatar);
+        $db->save($userArray);
+        header("location:login.php");
+        exit;
+        }
+      }
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

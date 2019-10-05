@@ -1,3 +1,30 @@
+<?php
+include_once("controllers/loader.php");
+if($_POST){
+  $user = new user (null, null , $_POST["email"], $_POST["password"]);
+  $errors=$validator->validate($user);
+if(count($errors)===0){
+  $userfind= $db->search($user->getEmail());
+  if ($userfind== null){
+    $errors['email']="Usuario no registrado";
+  }else{
+      if($auth->validatePassword($user->getPassword(),$userfind["password"])!=true){
+        $errors['password']="Por favor Verifique los Datos";
+      }else{
+        Auth:: setSession($userfind);
+        if (isset($_POST['recordar'])) {
+          Auth:: setCookie($userfind);
+        }
+        if (Auth::validateUser()) {
+          header("location:index.php");
+        }else{
+          header("location:registro.php");
+        }
+      }
+    }
+  }
+}
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -20,19 +47,19 @@
   <div class="col-12">
   <h1>Login</h1>
     </div>
-  <form>
+    <form action="" method="POST">
     <div class="container">
 
 
   <div class="form-row">
     <div class="form-group col-12">
       <label for="inputEmail">Email</label>
-      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email">
     </div>
 
   <div class="form-group col-12">
     <label for="inputAddress2">Password</label>
-    <input type="password" class="form-control" id="Password" placeholder="Password">
+    <input name="password" type="password" class="form-control" id="Password" placeholder="Password">
   </div>
 </div>
   <div class="form-group col-12">
