@@ -1,4 +1,6 @@
-?>  
+<?php
+include_once("controllers/loader.php");
+?>
 <!DOCTYPE html>
 <html>
     <?php require 'components/head.php';?>

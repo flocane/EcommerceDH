@@ -1,3 +1,6 @@
+<?php
+include_once("controllers/loader.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

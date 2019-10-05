@@ -22,8 +22,7 @@
           Bienvenido/a: <?=$_SESSION["name"];?>
       <a class="nav-item" href="logout.php"> Logout</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="perfil.php" >Mi Perfil</a> <?php } ?>
+      <?php } ?>
       </li>
     <?php if (empty($_SESSION)){?>
       <li class="nav-item">
