@@ -30,7 +30,7 @@ include_once("controllers/loader.php");
           
           <article>
           <p class="pregunta">¿Cuál es la diferencia entre bolsa de lavandería, plancha y tintorería?</p>
-          <p class="rta"> En nuestras Sucursales Jeff desarrollamos tres procesos: 
+          <p class="rta"> En nuestras Sucursales Lava Bien desarrollamos tres procesos: 
             Lavandería que incluye lavado en agua, secado en secarropas y doblado.
             Plancha que incluye lavado en agua, secado en secarropas y planchado.
             Tintorería que incluye desmanchado, limpieza en seco, lavado y planchado.</p>
@@ -44,7 +44,7 @@ include_once("controllers/loader.php");
 
          <article>
           <p class="pregunta">¿Lavan materiales especiales?</p>
-          <p class="rta"> ¡Por supuesto! Podés consultarlo en tu Sucursal Jeff más cercana.</p>
+          <p class="rta"> ¡Por supuesto! Podés consultarlo en tu Sucursal Lava ien más cercana.</p>
          </article>
 
          <article>
