@@ -26,10 +26,11 @@ include_once("controllers/loader.php");
     </article>
     <article class="col-6 landingArticles">
     <h1 class="headingLanding">LAVANDERIAS LAVA BIEN </h1>  
-    <p class="parrLanding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quia, 
-    consectetur molestias dolore iure possimus quod debitis corrupti recusandae voluptas qui, modi 
-    quam quibusdam officiis nesciunt eos voluptatem distinctio! Voluptate iste debitis voluptatem voluptates, 
-    voluptatibus ut fuga nihil facere harum!</p>
+    <p class="parrLanding">Lavanderia Lava Bien, llego a la ciudad para ofrecer el servicio de calidad
+        que tanto esperabas, nos especializamos en el tratamiento en lavado, secado, planchado   de indumentaria, nos 
+        centramos en la calidad y rapidez del lavado, podras encontrar comodos centros donde entregar tu ropa, podras retirarlos 
+        en tiempo que superan al de la competencia. Tienes la oportunidad de ser parte de la comunidad Lava Bien, registrandote 
+        con un par de clicks.</p>
                 <!-- Boton  a Productos-->
             <div class="col-6"><a href=productos.php> <button type="button" class="btn btn-primary btn-lg buttonsLanding" >NUESTROS PRODUCTOS</button></a></div>
 ​
@@ -61,10 +62,10 @@ include_once("controllers/loader.php");
     
     <article class="col-6 landingArticles">
     <h1 id="headingRegistro">COMUNIDAD LAVA BIEN</h1>  
-    <p class="parrLanding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quia, 
-    consectetur molestias dolore iure possimus quod debitis corrupti recusandae voluptas qui, modi 
-    quam quibusdam officiis nesciunt eos voluptatem distinctio! Voluptate iste debitis voluptatem voluptates, 
-    voluptatibus ut fuga nihil facere harum!</p>
+    <p class="parrLanding"> Perteneciendo a nuestra comunidad podras acceder a servicios express, acumularas puntos
+    que podras canjear por premios, descuentos y otros beneficios. Nuestras sucursales ubicadas en puntos estrategicos de 
+    la ciudad permitiran la entrega de tus mas preciadas prendas en el lugar donde te encuentres. Nuestra comunidad asegura
+    el cuidado y trtamiendo de calidad que esperas. Solo debes Registrate y ya podras acceder a todos nuestro fabulosos servicios</p>
 ​
           <div class="col-6"><a href=registro.php> <button type="button" class="btn btn-primary btn-lg buttonsLanding" >REGISTRATE</button></a></div>     
     </article>
@@ -80,11 +81,10 @@ include_once("controllers/loader.php");
     </article>
     <article class="col-6 landingArticles">
     <h1 class="headingLanding">MAS SOBRE NOSOTROS</h1>  
-    <p class="parrLanding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis architecto est
-         vero velit sapiente, dolorem error esse ducimus, ut odit omnis eum harum eligendi 
-         animi voluptatibus nam. Quidem, odit. Iste eos placeat error eaque rerum incidunt?
-          Soluta quidem maiores totam, enim ipsam deleniti, optio quisquam perferendis molestias 
-          at voluptas. Quisquam modi ullam asperiores impedit dolore ad assumenda sequi hic nihil.</p>
+    <p class="parrLanding">Somos una de las cadenas lider en el tratamiento, entrega y logistica de prendas de vestir, surgio con la idea de cubrir
+    las necesidad de disminuir los tiempos de entrega asegurando la calidad de servicio, utilizando solo productos de alta calidad,
+    pensando siempre en el medio ambiente. Nuestro servicios personalizados permiten asegurar que puedas elegir el producto que mas 
+    se adapte a  tus necesidades.</p>
  
             <div class="col-6"><a href=ABOUT.php> <button type="button" class="btn btn-primary btn-lg buttonsLanding" >NOSOTROS</button></a></div>
 ​
