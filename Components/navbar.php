@@ -6,7 +6,7 @@
 </button>
 
 
-  <a class="navbar-brand" href="#"><img src="img/layout/iron.png"  width= "60" height="60"  alt=""> Lavadero Lava Bien</a>
+  <a class="navbar-brand font-weight-bolder" href="#"><img src="img/layout/iron.png"   width= "60" height="60"  alt="" >Lavadero Lava Bien</a>
 <div class="collapse navbar-collapse" id="navbarNav"> 
 
   <ul class="navbar-nav">

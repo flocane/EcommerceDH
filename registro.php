@@ -59,35 +59,35 @@ if ($_POST){
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
                     <fieldset>
-                        <legend class="text-center header">Formulario de Registro de Usuarios</legend>
+                        <legend class="text-center header titulosgenerales" >Formulario de Registro de Usuarios</legend>
                         <div class="form-group"> <!-- Nombre -->
-                            <label for="full_name_id" class="control-label">Nombre</label>
+                            <label for="full_name_id" class="control-label"><strong>Nombre</strong></label>
                             <input type="text" class="form-control" id="Name" name="name" placeholder="Ingresar Nombre">
                         </div>
                         <div class="form-group"> <!-- Apellido -->
-                         <label for="apellido" class="control-label">Apellido</label>
+                         <label for="apellido" class="control-label"><strong>Apellido</strong></label>
                          <input type="text" class="form-control" id="Apellido" name="apellido" placeholder="Ingresar Apellido">
                         </div>
                         <div class="form-group"> <!-- Usuario -->
-                            <label for="usuario" class="control-label">Usuario</label>
+                            <label for="usuario" class="control-label"><strong>Usuario</strong></label>
                             <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Ingresar Nombre de Usuario">
                         </div>
                         <div class="form-group"> <!-- E-mail -->
-                            <label for="email" class="control-label">E-mail</label>
+                            <label for="email" class="control-label"><strong>E-mail</strong></label>
                             <input type="text" class="form-control" id="email" name="email" placeholder="Ingresar numero e-mail de Conctato">
                         </div>
                         <div class="form-group"> <!-- Password -->
-                            <label for="password" class="control-label">Contraseña</label>
+                            <label for="password" class="control-label"><strong>Contraseña</strong></label>
                             <input type="password" class="form-control" id="password" name="password" placeholder="Ingresar Contraseña del usuario">
                         </div>
                         <div class="form-group"> <!--Confirmacion de Password -->
-                            <label for="repassword" class="control-label">Confirmar Contaseña</label>
+                            <label for="repassword" class="control-label"><strong>Confirmar Contaseña</strong></label>
                             <input type="password" class="form-control" id="repassword" name="repassword" placeholder="Ingresar Confirmacion de Contraseña del usuario">
                         </div>
                         </div>
                         <div class="form-group"> <!-- Boton de Enviar Registro-->
                            <div class="col-md-12 text-center">
-                           <button type="submit" class="btn btn-primary btn-lg">Registrame</button>
+                           <button type="submit" class="btn btn-primary btn-lg"><strong>Registrame</strong></button>
                           </div>
                         </div>
                     </fieldset>
