@@ -1,5 +1,6 @@
 .foot{
     color: white;
+    text-decoration: none;
   }
   .iconos i:hover{
     border-radius: 50%;
@@ -24,4 +25,10 @@
   }
   .iconos i.fa-youtube:hover{
     color: red;
+  }
+
+  .foot a{
+    color: white;
+    text-decoration: none;
+
   }

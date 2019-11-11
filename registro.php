@@ -60,32 +60,32 @@ if ($_POST){
                 <form class="form-horizontal" method="post">
                     <fieldset>
                         <legend class="text-center header titulosgenerales" >Formulario de Registro de Usuarios</legend>
-                        <div class="form-group"> <!-- Nombre -->
+                        <div class="form-group mt-4 col-sm-12 col-md-8 col-lg-8"> <!-- Nombre -->
                             <label for="full_name_id" class="control-label"><strong>Nombre</strong></label>
                             <input type="text" class="form-control" id="Name" name="name" placeholder="Ingresar Nombre">
                         </div>
-                        <div class="form-group"> <!-- Apellido -->
+                        <div class="form-group mt-4 col-sm-12 col-md-8 col-lg-8"> <!-- Apellido -->
                          <label for="apellido" class="control-label"><strong>Apellido</strong></label>
                          <input type="text" class="form-control" id="Apellido" name="apellido" placeholder="Ingresar Apellido">
                         </div>
-                        <div class="form-group"> <!-- Usuario -->
+                        <div class="form-group mt-4 col-sm-12 col-md-8 col-lg-8"> <!-- Usuario -->
                             <label for="usuario" class="control-label"><strong>Usuario</strong></label>
                             <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Ingresar Nombre de Usuario">
                         </div>
-                        <div class="form-group"> <!-- E-mail -->
+                        <div class="form-group mt-4 col-sm-12 col-md-8 col-lg-8"> <!-- E-mail -->
                             <label for="email" class="control-label"><strong>E-mail</strong></label>
                             <input type="text" class="form-control" id="email" name="email" placeholder="Ingresar numero e-mail de Conctato">
                         </div>
-                        <div class="form-group"> <!-- Password -->
+                        <div class="form-group mt-4 col-sm-12 col-md-8 col-lg-8"> <!-- Password -->
                             <label for="password" class="control-label"><strong>Contraseña</strong></label>
                             <input type="password" class="form-control" id="password" name="password" placeholder="Ingresar Contraseña del usuario">
                         </div>
-                        <div class="form-group"> <!--Confirmacion de Password -->
+                        <div class="form-group mt-4 col-sm-12 col-md-8 col-lg-8"> <!--Confirmacion de Password -->
                             <label for="repassword" class="control-label"><strong>Confirmar Contaseña</strong></label>
                             <input type="password" class="form-control" id="repassword" name="repassword" placeholder="Ingresar Confirmacion de Contraseña del usuario">
                         </div>
                         </div>
-                        <div class="form-group"> <!-- Boton de Enviar Registro-->
+                        <div class="form-group mt-4 col-sm-12 col-md-8 col-lg-8"> <!-- Boton de Enviar Registro-->
                            <div class="col-md-12 text-center">
                            <button type="submit" class="btn btn-primary btn-lg"><strong>Registrame</strong></button>
                           </div>

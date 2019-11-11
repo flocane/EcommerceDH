@@ -21,11 +21,11 @@ include_once("controllers/loader.php");
 
 <nav class="gral">
  <main>
-    <section id="titulo  faq">
+    <section id="titulo  faq col-md-12 col-sm-12 col-lg-8 ">
         <p class="titulosgenerales" > <strong> Preguntas Frecuentes</strong></p>
     </section>
      
-    <section class="seccionx">
+    <section class="seccionx col-md-12 col-sm-12 col-lg-8">
         <p class="tituloseccion"> <strong>Sobre el lavado</strong></p>
           
           <article>
@@ -53,7 +53,7 @@ include_once("controllers/loader.php");
          </article>
     </section>
 
-    <section class="seccionx">
+    <section class="seccionx col-md-12 col-sm-12 col-lg-8">
         <p class="tituloseccion"> <strong>Hacer el pedido</strong></p>
           
           <article>
@@ -67,7 +67,7 @@ include_once("controllers/loader.php");
          </article>
     </section>
 
-    <section class="seccionx">
+    <section class="seccionx col-md-12 col-sm-12 col-lg-8">
         <p class="tituloseccion"> <strong>Pago</strong></p>
           
           <article>
@@ -81,11 +81,11 @@ include_once("controllers/loader.php");
          </article>
     </section>
 
-    <section class="seccionx">
+    <section class="seccionx col-md-12 col-sm-12 col-lg-8">
         <p class="tituloseccion"> <strong>Atención al cliente</strong></p>
           
           <article>
-          <p class="pregunta">¿Qué pasa si mis prendas necesitan un tratamiento diferente?</p>
+          <p class="pregunta ">¿Qué pasa si mis prendas necesitan un tratamiento diferente?</p>
           <p class="rta">En ese caso, te contactaremos para que autorices cualquier tratamiento de las prendas antes de realizarlo.</p>
          </article>
     

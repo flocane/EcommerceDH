@@ -2,10 +2,10 @@
           <div class="row mx-0">
             <div class=" col-12 col-md-4">
               <h3 class="foot">Lavadero Lava Bien </h3>
-                <ul>
-                  <li><a href="#">Contacto</a> </li>
-                  <li><a href="#">Institucional</a> </li>
-                  <li><a href="#">Sobre Nosotros</a> </li>
+                <ul style="list-style:none">
+                  <li ><a class ="nav-link" href="#">Contacto</a> </li>
+                  <li><a class ="nav-link" href="#">Institucional</a> </li>
+                  <li><a class ="nav-link"  href="#">Sobre Nosotros</a> </li>
                 </ul>
                 <p class="iconos">
                   <i class="fab fa-whatsapp"><a href="http://wa.me/541130847961?text=hola queria realizar el siguiente pedido "></a></i>

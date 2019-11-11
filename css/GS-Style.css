@@ -45,15 +45,15 @@
     color:rgba(1, 0, 2, 0.87);
     font-size: 13px;
 }   
-
+/* 
 .producto {
-    width: 30%;
+
     height: 350px;
     margin-top: 15px;
     text-align: center;
     margin-bottom: 150px;
     margin-right: 30px; 
-}
+} */
 
 .fotosCamisa{
     background-image: url(../img/camisas.jpg);

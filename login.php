@@ -43,7 +43,7 @@ if(count($errors)===0){
 
   <?php  include_once 'Components/navbar.php' ?>
 
-<section>
+<section class="mt-4">
   <div class="col-12">
   <legend class="text-center header titulosgenerales" >LOGIN</legend>
     </div>
@@ -51,18 +51,18 @@ if(count($errors)===0){
     <div class="container">
 
 
-  <div class="form-row">
-    <div class="form-group col-12">
+  <div class="form-row mt-4">
+    <div class="form-group txtHorizontal col-sm-12 col-md-8 col-lg-8">
       <label for="inputEmail"><strong>Email</strong></label>
       <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email">
     </div>
 
-  <div class="form-group col-12">
+  <div class="form-group col-sm-12 col-md-8 col-lg-8">
     <label for="inputAddress2"><strong>Password</strong></label>
     <input name="password" type="password" class="form-control" id="Password" placeholder="Password">
   </div>
 </div>
-  <div class="form-group col-12">
+  <div class="form-group col-sm-12 col-md-8 col-lg-8">
     <div class="form-check">
       <button type="submit" class="btn btn-primary"><strong>Sign in</strong></button>
       <div>
