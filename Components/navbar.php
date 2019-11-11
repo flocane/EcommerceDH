@@ -5,9 +5,9 @@
   <span class="navbar-toggler-icon"></span>
 </button>
 
-<span><i class="icono" href=" ../img/layout/iron.png"></i></span>
-  <a class="navbar-brand" href="#"> Lavadero Lava Bien</a>
-<div class="collapse navbar-collapse" id="navbarNav">
+
+  <a class="navbar-brand" href="#"><img src="img/layout/iron.png"  width= "60" height="60"  alt=""> Lavadero Lava Bien</a>
+<div class="collapse navbar-collapse" id="navbarNav"> 
 
   <ul class="navbar-nav">
   

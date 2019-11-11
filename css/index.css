@@ -65,4 +65,7 @@ background-color: white;
 background-color: #94d3f8;
 }
 
-.icono{}
+.icono{
+  background-image: url(../img/layout/iron.png);
+    background-size: cover;
+}
