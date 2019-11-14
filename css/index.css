@@ -64,3 +64,26 @@ background-color: white;
 #footerBGcolor{
 background-color: #94d3f8;
 }
+
+.icono{
+  background-image: url(../img/layout/iron.png);
+    background-size: cover;
+}
+
+.bannerPrincipal{
+  width: 100%; 
+  display: flex;
+  padding: 10px;
+  text-align: center
+}
+
+.seccion1, .seccion2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+

@@ -3,9 +3,10 @@
     margin: 0 auto;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
   }
   a{
-    color: white;
+    
     text-decoration: none;
     display: inline-block;
     font-weight: bold;

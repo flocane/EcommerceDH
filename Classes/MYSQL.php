@@ -16,6 +16,7 @@ class MYSQL extends Database
             exit;
         }
     }
+    
     static public function searchEmail($email,$pdo,$tabla)
     {
         $query = $pdo->prepare("SELECT * FROM $tabla WHERE email = :email");

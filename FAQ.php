@@ -1,3 +1,6 @@
+<?php
+include_once("controllers/loader.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,16 +21,16 @@
 
 <nav class="gral">
  <main>
-    <section id="titulo  faq">
+    <section id="titulo  faq col-md-12 col-sm-12 col-lg-8 ">
         <p class="titulosgenerales" > <strong> Preguntas Frecuentes</strong></p>
     </section>
      
-    <section class="seccionx">
+    <section class="seccionx col-md-12 col-sm-12 col-lg-8">
         <p class="tituloseccion"> <strong>Sobre el lavado</strong></p>
           
           <article>
           <p class="pregunta">¿Cuál es la diferencia entre bolsa de lavandería, plancha y tintorería?</p>
-          <p class="rta"> En nuestras Sucursales Jeff desarrollamos tres procesos: 
+          <p class="rta"> En nuestras Sucursales Lava Bien desarrollamos tres procesos: 
             Lavandería que incluye lavado en agua, secado en secarropas y doblado.
             Plancha que incluye lavado en agua, secado en secarropas y planchado.
             Tintorería que incluye desmanchado, limpieza en seco, lavado y planchado.</p>
@@ -41,7 +44,7 @@
 
          <article>
           <p class="pregunta">¿Lavan materiales especiales?</p>
-          <p class="rta"> ¡Por supuesto! Podés consultarlo en tu Sucursal Jeff más cercana.</p>
+          <p class="rta"> ¡Por supuesto! Podés consultarlo en tu Sucursal Lava ien más cercana.</p>
          </article>
 
          <article>
@@ -50,7 +53,7 @@
          </article>
     </section>
 
-    <section class="seccionx">
+    <section class="seccionx col-md-12 col-sm-12 col-lg-8">
         <p class="tituloseccion"> <strong>Hacer el pedido</strong></p>
           
           <article>
@@ -64,7 +67,7 @@
          </article>
     </section>
 
-    <section class="seccionx">
+    <section class="seccionx col-md-12 col-sm-12 col-lg-8">
         <p class="tituloseccion"> <strong>Pago</strong></p>
           
           <article>
@@ -78,11 +81,11 @@
          </article>
     </section>
 
-    <section class="seccionx">
+    <section class="seccionx col-md-12 col-sm-12 col-lg-8">
         <p class="tituloseccion"> <strong>Atención al cliente</strong></p>
           
           <article>
-          <p class="pregunta">¿Qué pasa si mis prendas necesitan un tratamiento diferente?</p>
+          <p class="pregunta ">¿Qué pasa si mis prendas necesitan un tratamiento diferente?</p>
           <p class="rta">En ese caso, te contactaremos para que autorices cualquier tratamiento de las prendas antes de realizarlo.</p>
          </article>
     
