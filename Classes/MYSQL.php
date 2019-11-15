@@ -12,7 +12,7 @@ class MYSQL
             $bd = new PDO($dsn, $usuario, $password, $opt);
             return $bd;
         } catch (PDOException $error) {
-            // TODO: Fallar elegantemente
+            echo "<h2>No está conectandose a la base de datos :( <br></h2>".$error->getMessage();
             exit;
         }
     }
