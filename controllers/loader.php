@@ -5,6 +5,8 @@
  require 'Classes/Cookie.php';
   require 'Classes/Database.php';
   require 'Classes/DBJSON.php';
+  require 'Classes/MYSQL.php';
+  require 'Classes/Querys.php';
   require 'Classes/HashPassword.php';
   require 'Classes/Session.php';
   require 'Classes/User.php';
@@ -15,5 +17,6 @@
 
   $validator = new Validator();
   $factory = new UserFactory();
-  $db = new DBJSON('users.json');
+  $db = MYSQL::conexion();
+  $query = new Querys($db);
   $auth = new Auth();

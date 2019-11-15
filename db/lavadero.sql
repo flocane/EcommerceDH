@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `lavadero` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `lavadero`;
 -- MySQL dump 10.13  Distrib 8.0.18, for Win64 (x86_64)
 --
 -- Host: localhost    Database: lavadero
@@ -25,6 +27,7 @@ DROP TABLE IF EXISTS `carritos`;
 CREATE TABLE `carritos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `compra_id` int(11) DEFAULT NULL,
+  `precio_final` float DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
@@ -84,10 +87,11 @@ CREATE TABLE `productos` (
   `imagen` varchar(100) DEFAULT NULL,
   `nombre` varchar(50) DEFAULT NULL,
   `descripcion` varchar(500) DEFAULT NULL,
+  `precio` float DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -96,6 +100,7 @@ CREATE TABLE `productos` (
 
 LOCK TABLES `productos` WRITE;
 /*!40000 ALTER TABLE `productos` DISABLE KEYS */;
+INSERT INTO `productos` VALUES (1,'img/bolsaMediana.jpg','Lavanderia Small','bolsa pequeña',236,'2019-11-15 03:07:38','2019-11-15 03:07:38'),(2,'img/bolsaMediana.jpg','Lavanderia Medium','bolsa mediana',325,'2019-11-15 03:23:10','2019-11-15 03:23:10'),(3,'img/bolsaMediana.jpg','Lavanderia Large','bolsa grande',420,'2019-11-15 03:24:05','2019-11-15 03:24:05'),(4,'img/camisas.jpg','Lavanderia Large','bolsa grande',123.5,'2019-11-15 14:14:38','2019-11-15 14:14:38'),(5,'img/sacos.jpg','Lavanderia Large','bolsa grande',380,'2019-11-15 14:14:38','2019-11-15 14:14:38'),(6,'img/Pantalones.jpg','Lavanderia Large','bolsa grande',98.5,'2019-11-15 14:14:38','2019-11-15 14:14:38'),(7,'img/toallas.jpg','Lavanderia Large','bolsa grande',53.9,'2019-11-15 14:14:38','2019-11-15 14:14:38'),(8,'img/RopaBebe.jpg','Lavanderia Large','bolsa grande',254,'2019-11-15 14:14:38','2019-11-15 14:14:38'),(9,'img/acolchados.jpg','Lavanderia Large','bolsa grande',478,'2019-11-15 14:14:39','2019-11-15 14:14:39');
 /*!40000 ALTER TABLE `productos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -108,6 +113,7 @@ DROP TABLE IF EXISTS `productos_carritos`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `productos_carritos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `precio_final` float DEFAULT NULL,
   `producto_id` int(11) DEFAULT NULL,
   `carrito_id` int(11) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -142,12 +148,14 @@ CREATE TABLE `usuarios` (
   `last_name` varchar(50) DEFAULT NULL,
   `nickname` varchar(50) DEFAULT NULL,
   `email` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL,
+  `password` text,
+  `avatar` text,
+  `rol` varchar(50) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -156,7 +164,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1,'Yohana','Orona','Yoha','yohana@gmail.com','123456','2019-11-13 18:36:58','2019-11-13 18:36:58');
+INSERT INTO `usuarios` VALUES (1,'Yohana','Orona','Yoha','yohana@gmail.com','123456',NULL,NULL,'2019-11-13 18:36:58','2019-11-13 18:36:58'),(4,'Carla','Baracus','cbaracus','cbaracus@queti.com','$2y$10$Zt4Vkwgmcn6u/tltAamjhepvwPRB8uIwf/Tl7P8Xa74yVVq/TsJqu',NULL,NULL,'2019-11-15 02:33:02','2019-11-15 02:33:02');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -169,4 +177,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-11-13 22:52:16
+-- Dump completed on 2019-11-15 11:16:46

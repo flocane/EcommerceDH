@@ -1,5 +1,9 @@
 <?php
-include_once("controllers/loader.php");
+    require_once("controllers/loader.php");
+
+    
+        $productos = $query->getProducts();
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,104 +35,22 @@ include_once("controllers/loader.php");
     <div class="container">
     <div class="row "> 
 
-        <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
-        
-            <div class="cajaFoto fotosBolsaMediana">        
+        <?php foreach ($productos as $key => $producto) :?>
+            <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
+                <div class="cajaFoto">    
+                    <img class="fotoProducto" src="<?=$producto['imagen'];?>" alt="">      
+                </div>
+                <h4 class="nombreProd"><?=$producto['nombre'];?></h4>
+                <p class="precio">Precio: <em class="precio"><?=$producto['precio'];?></em> </p>
+                <div class= mb-5> 
+                    <button class="botonSubmit"><a href="carrito.php"> Agregar</a></button>
+                </div>
             </div>
-            <h4 class="nombreProd">Lavanderia Small</h4>
-            <p class="precio">Precio: <em class="precio">$326</em> </p>
-            <div class= mb-5> 
-                <button class="botonSubmit"><a href="carrito.php"> Agregar</a></button>
-            </div>
-        </div>
-
-        <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
-            <div class="cajaFoto fotosBolsaMediana">        
-            </div>
-            <h4 class="nombreProd">Lavanderia Medium</h4>
-            <p class="precio">Precio: <em class="precio">$436</em> </p>
-            <div class= mb-5> 
-                <button class="botonSubmit"><a href="carrito.php">Agregar</a></button>
-            </div>
-        </div>
-
-        <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
-            <div class="cajaFoto fotosBolsaMediana">        
-            </div>
-            <h4 class="nombreProd">Lavanderia Large</h4>
-            <p class="precio">Precio: <em class="precio">$636</em> </p>
-            <div class= mb-5> 
-                <button class="botonSubmit"><a href="carrito.php">Agregar</a></button>
-            </div>
-        </div>
-
-        <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
-            <div class="cajaFoto fotosCamisa">        
-            </div>
-            <h4 class="nombreProd">Camisas</h4>
-            <p class="precio">Precio: <em class="precio">$215</em> </p>
-            <div class= mb-5> 
-                <button class="botonSubmit"><a href="carrito.php">Agregar</a></button>
-            </div>
-        </div>
-
-
-        <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
-            <div class="cajaFoto fotosSaco">        
-            </div>
-            <h4 class="nombreProd">Sacos</h4>
-            <p class="precio">Precio: <em class="precio">$320</em> </p>
-            <div class= mb-5> 
-                <button class="botonSubmit"><a href="carrito.php">Agregar</a></button>
-            </div>
-        </div>
-
-        <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
-            <div class="cajaFoto fotosPantalon">        
-            </div>
-            <h4 class="nombreProd">Pantalones</h4>
-            <p class="precio">Precio: <em class="precio">$150</em> </p>
-            <div class= mb-5> 
-                <button class="botonSubmit"><a href="carrito.php">Agregar</a></button>
-            </div>
-        </div>
-        <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
-            <div class="cajaFoto fotosRopaBebe">        
-            </div>
-            <h4 class="nombreProd">Ropa Delicada</h4>
-            <p class="precio">Precio: <em class="precio">$515</em> </p>
-            <div class= mb-5> 
-                <button class="botonSubmit"><a href="carrito.php">Agregar</a></button>
-            </div>
-        </div>
-
-        <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
-            <div class="cajaFoto fotosAcolchado">        
-            </div>
-            <h4 class="nombreProd">Acolchados</h4>
-            <p class="precio">Precio: <em class="precio">$615</em> </p>
-            <div class= mb-5> 
-                <button class="botonSubmit"><a href="carrito.php">Agregar</a></button>
-            </div>
-        </div>
-
-        <div class="producto col-md-4 col-sm-6 mt-5 mb-5">  
-            <div class="cajaFoto fotosToalla">        
-            </div>
-            <h4 class="nombreProd">Toallas</h4>
-            <p class="precio">Precio: <em class="precio">$355</em> </p>
-            <div class= mb-5> 
-                <button class="botonSubmit"><a href="carrito.php">Agregar</a></button>
-            </div>
-        </div>
+        <?php endforeach;?>
 
     </div>
     </div>
  </main>
- <br>
- <br>
- <br>
-
 
 <?php include_once 'Components/footer.php'; ?>
 </body>

@@ -45,64 +45,16 @@
     color:rgba(1, 0, 2, 0.87);
     font-size: 13px;
 }   
-/* 
-.producto {
-
-    height: 350px;
-    margin-top: 15px;
-    text-align: center;
-    margin-bottom: 150px;
-    margin-right: 30px; 
-} */
-
-.fotosCamisa{
-    background-image: url(../img/camisas.jpg);
-    background-size: cover;
-}
-
-.fotosSaco{
-    background-image: url(../img/sacos.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-
-.fotosPantalon{
-    background-image: url(../img/Pantalones.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.fotosRopaBebe{
-    background-image: url(../img/RopaBebe.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.fotosAcolchado{
-    background-image: url(../img/acolchados.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.fotosToalla{
-    background-image: url(../img/toallas.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.fotosBolsaMediana{
-    background-image: url(../img/bolsaMediana.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 30px;
-}
 
 .cajaFoto{
-    width: 100%;
-    height: 75%;
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+}
+
+.fotoProducto{
+    background-size: cover;
+    background-position: center;
 }
 
 .flex-container {

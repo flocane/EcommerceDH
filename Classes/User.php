@@ -8,14 +8,16 @@ class User
     private $avatar = null;
     private $name;
     private $lastName;
+    private $nickname;
     private $rol=null;
 
-    public function __construct($name, $lastName, string $email, string $password, $rol=null)
+    public function __construct($name, $lastName, $nickname, string $email, string $password, $rol=null)
     {
         $this->email = $email;
         $this->password = $password;
         $this->name = $name;
         $this->lastName = $lastName;
+        $this->nickname = $nickname;
         $this->rol=$rol;
     }
     public function getId($id)
@@ -82,5 +84,15 @@ class User
     public function setRol($rol)
     {
         $this->rol = $rol;
+    }
+
+    public function getNickname()
+    {
+        return $this->nickname;
+    }
+
+    public function setNickname($nickname)
+    {
+        $this->nickname = $nickname;
     }
 }
