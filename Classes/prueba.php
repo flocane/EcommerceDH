@@ -3,6 +3,7 @@ class Persona {
     private $nombre;
     private $apellido;
     private $email;
+    private $sueldo;
 
     public function __construct($nombre,$apellido,$email){
         $this->nombre=$nombre;
@@ -11,62 +12,23 @@ class Persona {
 
     }
 
+
     /**
-     * Get the value of nombre
+     * Get the value of sueldo
      */ 
-    public function getNombre()
+    public function getSueldo()
     {
-        return $this->nombre;
+        return $this->sueldo;
     }
 
     /**
-     * Set the value of nombre
+     * Set the value of sueldo
      *
      * @return  self
      */ 
-    public function setNombre($nombre)
+    public function setSueldo($sueldo)
     {
-        $this->nombre = $nombre;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of apellido
-     */ 
-    public function getApellido()
-    {
-        return $this->apellido;
-    }
-
-    /**
-     * Set the value of apellido
-     *
-     * @return  self
-     */ 
-    public function setApellido($apellido)
-    {
-        $this->apellido = $apellido;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of email
-     */ 
-    public function getEmail()
-    {
-        return $this->email;
-    }
-
-    /**
-     * Set the value of email
-     *
-     * @return  self
-     */ 
-    public function setEmail($email)
-    {
-        $this->email = $email;
+        $this->sueldo = $sueldo;
 
         return $this;
     }
